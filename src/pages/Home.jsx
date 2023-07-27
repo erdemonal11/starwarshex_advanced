@@ -2,8 +2,7 @@ import "../App.css";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import MovieGrid from '../components/MovieGrid';
-import Logout from './Logout';
-
+import Logout from "../pages/logout";
 
 
 
@@ -74,7 +73,7 @@ const Home = () => {
         )}
       </div>
 
-      <Logout/>
+      <Logout />
     </div>
   );
 };
