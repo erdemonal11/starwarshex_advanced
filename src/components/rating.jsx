@@ -25,9 +25,8 @@ const rating = ({ movie }) => {
   return (
     <ReactStars
       isHalf={true}
-      size={40}
       edit={true}
-      className="star"
+      className="star starx"
       value={userRating} 
       onChange={handleRatingChange} 
     />

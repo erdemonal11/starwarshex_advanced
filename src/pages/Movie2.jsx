@@ -53,7 +53,7 @@ const Movie2 = () => {
       <div>
         <br />
         <div>
-          <button className="text">
+          <button className="but butx">
             <Link to={"/home"}>Go Back</Link>
           </button>
         </div>

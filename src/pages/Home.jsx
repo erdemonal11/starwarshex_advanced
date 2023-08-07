@@ -46,7 +46,7 @@ const Home = () => {
   return (
     <div>
       <div>
-        <img src="/assets/1.png" alt="" />
+        <img src="/assets/1.png" alt="" className="logox"/>
         <p className="text">
           This website is dedicated to Star Wars movies. You can click on the movies to see the content.
         </p>
@@ -61,7 +61,7 @@ const Home = () => {
 
       <br /><br />
       <div >
-        <img src="/assets/fav1.png" alt="" />
+        <img src="/assets/fav1.png" alt="" className="logoq" />
         {favoriteMovies.length === 0 ? (
           <p className="text">No favorite movies selected.</p>
         ) : (

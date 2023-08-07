@@ -34,7 +34,7 @@ const Login = () => {
         {error && <p className="error">{error}</p>}
         <form onSubmit={handleSubmit}>
           <div className="login-column">
-            <img src="/assets/log.png" alt="" />
+            <img src="/assets/log.png" alt=""  className="logox"/>
             <br /><br />
             <div>
               <input
@@ -57,7 +57,7 @@ const Login = () => {
             </div>
             <br />
             <div>
-              <button type="submit" className="but">
+              <button type="submit" className="but butx">
                 Login
               </button>
              <br /><br /><br />

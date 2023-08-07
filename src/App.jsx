@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/login";
-import Logout from "./pages/Logout";
+import Logout from "./pages/logout";
 import { useSelector } from "react-redux";
 import { selectUser } from "./components/userSlice";
 
