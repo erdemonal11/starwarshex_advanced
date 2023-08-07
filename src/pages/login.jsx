@@ -69,7 +69,7 @@ const Login = () => {
         </form>
       </div>
       <br /><br /><br /><br /><br /><br />
-  <a href="https://www.linkedin.com/in/erdem-%C3%B6nal-354413224/" target="_blank" className="erdem">Erdem Önal</a> </div>
+      <div className="erdemlabel"><a href="https://github.com/erdemonal11" target="_blank" className="erdemlabel">erdemapps.</a></div> </div>
    
   );
 };

@@ -73,6 +73,7 @@ body {
 a {
   max-width: fit-content;
   max-height: fit-content;
+  text-decoration: none;
 }
 
 h1 {
@@ -389,6 +390,12 @@ button:focus-visible {
     height: 20vh;
     width: 90vw;
   }
+}
+.erdemlabel {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  color:whitesmoke;
+  animation: erdemlabel 35s linear infinite;
 }
 
 
