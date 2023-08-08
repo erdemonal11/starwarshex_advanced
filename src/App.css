@@ -396,6 +396,7 @@ button:focus-visible {
   font-size: 30px;
   color:whitesmoke;
   animation: erdemlabel 35s linear infinite;
+  transition: color 0.5s;
 }
 
 
