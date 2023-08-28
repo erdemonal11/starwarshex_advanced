@@ -348,7 +348,7 @@ button:focus-visible {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
   .header {
     font-size: 30px;
   }
@@ -365,8 +365,9 @@ button:focus-visible {
 
   .filmposter,
   .movieposter {
-    height: 43vh;
-    width: 28vw;
+    height: auto;  
+    max-width: 90vw;  
+    width: auto;  
   }
 }
 
@@ -385,11 +386,7 @@ button:focus-visible {
     width: 10px;
   }
 
-  .filmposter,
-  .movieposter {
-    height: 20vh;
-    width: 90vw;
-  }
+   
 }
 .erdemlabel {
   font-family: 'Inter', sans-serif;

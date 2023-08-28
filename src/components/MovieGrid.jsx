@@ -1,9 +1,29 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Rating from "./rating";
 import "../App.css";
+import "../dot.jsx";
 
 const MovieGrid = ({ movies, favorites, toggleFavorite }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+     
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1500);
+  }, []);
+
+  if (isLoading) {
+    return <> LOADING PLEASE WAIT{" "}
+    <br /><br />
+    <div className="bouncing-loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div></>;
+  }
+
   return (
     <div className="grid-container">
       {movies.map((movie) => (
