@@ -399,4 +399,20 @@ button:focus-visible {
   transition: color 0.5s;
 }
 
+@media (max-width: 765px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  }
+
+  .item1,
+  .item2,
+  .item3,
+  .item4,
+  .item5,
+  .item6 {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
 
